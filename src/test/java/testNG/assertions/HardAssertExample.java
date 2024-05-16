@@ -15,6 +15,7 @@ public class HardAssertExample {
         String title = driver.getTitle();
       //  Assert.assertEquals(title, "Rediffmail", "Rediffmail Title Should be Mathch");
         Assert.assertEquals(title, "rediffmail", "rediffmail Title Should be Mathch");
+        System.out.println("Hello Krishnaveni..");
 
         
     }
