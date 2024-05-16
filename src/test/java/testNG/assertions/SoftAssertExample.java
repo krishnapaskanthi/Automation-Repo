@@ -22,6 +22,7 @@ public class SoftAssertExample {
         //  Assert.assertEquals(title, "Rediffmail", "Rediffmail Title Should be Mathch");
         Assert.assertEquals(title, "rediffmail", "rediffMail Title Should be Match");
         Assert.assertEquals(userNameTextBox.isDisplayed(),"Username textBox Should be displayed");
+        System.out.println("Hello Everone..");
         softAssert.assertAll();
         driver.close();
     }

@@ -16,6 +16,6 @@ public class HardAssertExample {
       //  Assert.assertEquals(title, "Rediffmail", "Rediffmail Title Should be Mathch");
         Assert.assertEquals(title, "rediffmail", "rediffmail Title Should be Mathch");
 
-        driver.close();
+        
     }
 }
