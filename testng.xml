@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testNG.failtestscriptexecution.AutomaticallyReRun"></listener>
+    </listeners>
+<!--    <groups>
+        <run>
+            <include name="smoke"/>
+            <include name="sanity"/>
+        </run>
+    </groups>-->
+<!--    <parameter name="browserName" value="firefox"/>-->
+<!--    <parameter name="courseName" value="Java"/>-->
+<!--    <parameter name="cityName" value="Pune"/>-->
+<!--    <parameter name="browserName" value="chrome"/>-->
+    <test verbose="10" preserve-order="true" parallel="true" thread-count="3" name="C:/Users/abhi/IdeaProjects/Maven">
+        <classes>
+<!--            <class name="testNG.parameterization.DataProviderWithExcel"/>-->
+<!--            <class name="testNG.assertions.HardAssertExample"/>-->
+<!--            <class name="testNG.assertions.SoftAssertExample"/>-->
+            <class name="testNG.priority.PriorityExample"/>
+
+            <!--     <class name="testNG.annotations.BeforeAfterTestExample"/>
+                 <class name="testNG.annotations.BeforeAfterMethodAnotherExample"/>
+                         <class name="testNG.annotations.AlwaysRunExample"/>
+                         <class name="testNG.annotations.BeforeAfterClassExample"/>
+                         <class name="testNG.annotations.BeforeAfterMethodExample"/>
+                         <class name="testNG.annotations.DependsOnGroupsExample"/>
+                         <class name="testNG.annotations.DependsOnMethodExample"/>
+                         <class name="testNG.annotations.DisableTestExample"/>
+                         <class name="testNG.annotations.InvocationCountExample"/>
+            <class name="mavendemo.TestNGExample"/>-->
+
+
+
+        </classes>
+            </test>
+        </suite>
